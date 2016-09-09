@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="nodeconnect" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="nodeconn.js" working-dir="$PROJECT_DIR$/connect">
+    <method />
+  </configuration>
+</component>

@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="nodeconnect-https" type="NodeJSConfigurationType" factoryName="Node.js" singleton="true" path-to-node="project" path-to-js-file="nodeconn.js" application-parameters="--https" working-dir="$PROJECT_DIR$/connect">
+    <method />
+  </configuration>
+</component>

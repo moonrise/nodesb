@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="xprss.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="xpress.js" working-dir="$PROJECT_DIR$/express">
+    <method />
+  </configuration>
+</component>

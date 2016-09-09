@@ -1,0 +1,43 @@
+{
+  "name": "npmscript",
+  "version": "1.0.0",
+  "description": "npm exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -u bdd -R spec",
+    "test:dev": "echo \"running test dev version\"",
+    "posttest:dev": "echo \"running test dev version - post\"",
+    "pretest:dev": "npm run lint",
+    "lint": "jshint *.js **/*.js",
+    "start": "node index.js",
+    "start:dev": "node index.js 4000"
+  },
+  "jshintConfig": {
+    "esnext": "true",
+    "noyield": "true"
+  },
+  "author": "bj",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.2",
+    "should": "^8.3.0",
+    "supertest": "^1.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "commander": "^2.9.0",
+    "compression": "^1.6.1",
+    "connect": "^3.4.1",
+    "connect-timeout": "^1.7.0",
+    "cookie-parser": "^1.4.1",
+    "cookie-session": "^2.0.0-alpha.1",
+    "express": "^4.13.4",
+    "koa": "^1.2.0",
+    "optimist": "^0.6.1",
+    "serve-index": "^1.7.3",
+    "socket.io": "^1.4.5",
+    "util": "^0.10.3"
+  }
+}
